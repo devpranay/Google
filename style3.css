@@ -1,0 +1,128 @@
+body {
+    padding:0;
+    margin:0;
+  }
+  nav{
+    background-color: #f1f1f1;
+    height:70px;
+    width:100%; 
+    }
+  .logo{
+      padding:2vh;
+      margin-left:20px;
+      width:120px;
+  }
+  .nav > a {
+    font-size: 13px;
+    font-family:helvetica;
+    margin:0;
+    padding:8px;
+    color: #000;
+    text-decoration:none;
+  }
+  
+  .nav-pills {
+    margin: 15px 5px;
+  }
+  
+  .nav{
+    float: right;
+    margin-right: 70px;
+    margin-top:30px;
+    padding:0;
+  }
+  .nav>a:hover{
+      text-decoration: underline;
+  }
+  .label-class{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    height:70px;
+    width:100%;
+    border-bottom: 1px solid #d9d9d9;
+  }
+  .label-class>label{
+    font-size: 20px;
+    float:left;
+    margin-top:26px;
+    margin-left: 35px;
+    content: center;
+    font-family: arial,sans-serif;
+    color: #d93025;
+  }
+  .heading{
+    font-size: 13px;
+    float:left;
+    margin-top:26px;
+    margin-left: 35px;
+    font-family: arial,sans-serif;
+  }
+  .heading > span{
+    font-size: 13px;
+    margin-left:890px;
+    font-weight: 600;
+    color: #777;
+  }
+  .label-left{
+    font-size: 13px;
+    margin:80px 40px;
+    top:4vh;
+    line-height: 30px;
+    font-family: arial,sans-serif;
+  }
+  input{
+    border-radius: 1px;
+    width: 40%;
+    position: absolute;
+    left:45vh;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 20px;
+  }
+  input:hover{
+    border: 1px solid blue;
+    border-top: 1px solid blue;
+    :8px rgb(0, 0, 255);
+  }
+  input:focus{
+    border: 1px solid blue;
+    border-top: 1px solid blue;
+    outline:none;
+  }
+  .spns{
+    font-size:12px;
+    position: absolute;
+    left:130vh;
+    font-weight: 200;
+    color: #777;
+  }
+  .button{
+    color: white;
+    position:absolute;
+    text-align: center;
+    margin: 0 auto;
+    left:115vh;
+    top:50vh;
+    padding-top: 10px;
+    margin:10px 0;
+  }
+  
+  .button {
+    background: #4d90fe;
+    padding: 10px 12px;
+    font-weight: 700;
+    display: inline-block;
+    font-size: 14px;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color:white;
+    font-family: arial, sans-serif;
+  }
+  .button:hover {
+    border: 1px solid #c6c6c6;
+    color:white;
+    cursor: default;
+  }
