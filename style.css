@@ -1,0 +1,82 @@
+body {
+    font-size: 13px;
+  }
+  
+  .google {
+    padding-top: 25vh;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-bottom: 30vh;
+  }
+  
+  .logo {
+    padding-bottom: 25px;
+  }
+  
+  .search {
+    width: 30vw;
+    font: Arial;
+    font-size: 20px;
+    border: 1px solid #d9d9d9;
+    background-position: 98.5%;
+    background-size: 1.5em;
+    word-wrap:break-word;
+    border-radius: 800px;
+    padding: 10px;
+  }
+  .search:hover {
+    box-shadow: 3px 3px 3px #888888;
+    width:31vw;
+  }
+  
+  .search:focus {
+    outline: none;
+    border: 1px solid #4d90fe;
+    box-shadow: red;
+    width:31vw;
+  }
+  
+  .Bottombuttons {
+    color: #5F6368;
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+    padding-top: 20px;
+  }
+  
+  .button {
+    background: #f2f2f2;
+    padding: 8px 12px;
+    font-weight: 300;
+    display: inline-block;
+    font-size: 14px;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #757575;
+    font-family: arial, sans-serif;
+  }
+  .button:hover {
+    border: 1px solid #c6c6c6;
+    color: #222;
+    cursor: default;
+   
+
+  }
+  .nav > a {
+    font-size: 13px;
+    font-family:helvetica;
+    margin:0;
+    padding:5px;
+    color: #000;
+    text-decoration:none;
+  }
+  
+  .nav-pills {
+    margin: 15px 5px;
+  }
+  
+  .nav{
+    float: right;
+    margin-right: 15px;
+    padding:0;
+  }
